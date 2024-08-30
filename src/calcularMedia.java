@@ -1,12 +1,14 @@
 public class calcularMedia {
     public static void main(String[] args) throws Exception {
 
-        int Paulo = 10;
-        int Julia = 15;
-        int Carla = 25;
-        int grupo = Paulo + Julia * Carla;
+        int primeiraNota = 10;
+        int segundaNota = 15;
+        int terceiraNota = 25;
+        int quartaNota = 8;
 
-        System.out.println("A nota média do grupo é de : " + grupo);
+        int totalMedia = primeiraNota + segundaNota + terceiraNota + quartaNota * 4;
+
+        System.out.println("a media do aluno é de: " + totalMedia);
     }
 
 }
